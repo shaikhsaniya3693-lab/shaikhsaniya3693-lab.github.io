@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="app">
+        <div class="top-bar">
+            <button class="toggle" onclick="toggleTheme()">🌙</button>
+        </div>
+
+        <div id="display" class="time">00:00:00</div>
+
+        <div id="laps" class="laps"></div>
+
+        <div class="controls">
+            <button class="control-btn start" onclick="startTimer()">Start</button>
+            <button class="control-btn stop" onclick="pauseTimer()">Stop</button>
+            <button class="control-btn lapBtn" onclick="addLap()">Lap</button>
+            <button class="control-btn reset" onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

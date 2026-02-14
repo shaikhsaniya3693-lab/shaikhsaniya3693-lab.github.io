@@ -1,0 +1,15 @@
+/* Default style */
+/* body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+} */
+
+/* Media Query for screens 600px or less */
+@media (max-width: 600px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+

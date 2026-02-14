@@ -1,0 +1,44 @@
+.main-container{
+    background-color: #3F799E;
+    height: 100%;
+    width: 100%;
+}
+
+ .image-style{
+    height: 27rem;
+    width: 50rem;
+   
+    margin-top: 1.5rem;
+ }
+ .main-form{
+    margin-top: 4.5rem; 
+    padding: 2.5rem;
+    border-radius: 1rem;
+ } 
+ .form-head{
+    gap: 2.5rem;
+
+ }
+  a{
+   text-decoration: none;
+ }
+ .form-passrow{
+    justify-content: space-between;
+ }
+ .form-passrow a{
+    text-decoration: none;
+    /* color: #0000; */
+ }
+ .form-register{
+    display: flex;
+    justify-content: space-between;
+ }
+ .form-register a{
+    text-decoration: none;
+ }
+ .main-form{
+    background-color: #ffff;
+ }
+ .footer img{
+   width: 2rem;
+ }

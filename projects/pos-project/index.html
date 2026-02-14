@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>POS</h1>
+        <div id="categories" class="categories"></div>
+        <div class="main">
+            <div id="products" class="products">
+                <!-- <div class="product">
+                    <img src="https://cdn.dummyjson.com/product-images/beauty/essence-mascara-lash-princess/thumbnail.webp" alt="">
+                    <h4>Eye Lashes</h4>
+                </div> -->
+            </div>
+            <div class="cart">
+                <h3>Cart</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ITEM</th>
+                            <th>QTY</th>
+                            <th>PRICE</th>
+                        </tr>
+                    </thead>
+                    <tbody id="cartBody"></tbody>
+                </table>
+                <h4>Total: Rs. <span id="total">0</span></h4>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
